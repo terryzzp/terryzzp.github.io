@@ -12,13 +12,14 @@ h1{
 }
 
 h1 span{
-    font-size: 20px;
+    font-size: 40px;
     display: block;
     color: #000;
 }
 
 body {
-    background: url(/static/res/stars.jpg);
+    /*background:#e4ebe9 url('/static/back.jpg') repeat top left;*/
+    background:#f0fcfc url('/static/res/back.png') repeat top left;
 }
 
 body header{
@@ -26,7 +27,6 @@ body header{
     font-size: 13px;
     background: #87CEEB;
     /*background: #000;*/
-    text-transform: uppercase;
     opacity: 0.8;
 }
 
@@ -71,12 +71,3 @@ body header #rightInfo{
     opacity: 0.7;
 }
 
-#cloud {
-    margin-left: 100px;
-}
-
-#rightNav {
-    width: 25%;
-    float: left;
-    border: 1.5px solid rgba(0, 0, 0, 0.19);
-}
