@@ -1,5 +1,5 @@
 var WIDTH  = window.innerWidth;
-var HEIGHT = 400;
+var HEIGHT = window.innerHeight * 0.57;
 var XDIS   = 100;
 var turn_points = [HEIGHT * 3 / 4];
 var curve_points = [];
