@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Search Engine | Cloud &amp; Rain</title>
+    <link href='/static/res/font' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+    <script type="text/javascript" src="../static/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+    <script type="text/javascript" src="../static/js/p5.min.js"></script>
+    <script type="text/javascript" src="../static/js/p5.dom.min.js"></script>
+    <script type="text/javascript" src="../static/js/cloud.js"></script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <p id="leftInfo">Cloud &amp; Rain --> Search engine</p>
+        <p id="rightInfo">More Info</p>
+    </header>
+
+    <h1 id="bigTopic">
+        -----Cloud &amp; Rain-----
+    </h1>
+
+    <h2 id="subTopic" align="center">
+        Search Engine
+    </h2>
+
+    <div id="mainContent">
+        <div id="form" align="center">
+            <form>
+                <input type="text"  id="search-form" name="title" />
+                <input type="button" id="btn_submit" value="go!" onclick="sendPost()" />
+                <input type="button" id="btn_submit" value="go (pic)!" onclick="sendPost(true)" />
+                <!-- <div id="demo">
+                    <div class="wrapper">
+                        <div id="search-form"></div>
+                    </div>
+                </div> -->
+            </form>
+
+        </div>
+        
+    </div>
+
+    <div id="result"></div>
+
+    <div id="cloud"></div>
+
+    <!-- <div id="rightNav">
+        <p>rightnav</p>
+    </div> -->
+
+</div>
+</body>
+</html>
