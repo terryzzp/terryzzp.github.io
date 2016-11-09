@@ -61,8 +61,8 @@ function Picture(img, x = 200, y = 0, s_x = 0, s_y = 0, delta = -80, delta_y = 1
 }
 
 function preload() {
-    img = loadImage("../res/cloud.png");
-    img_peo = loadImage("../res/people.png");
+    img = loadImage("../static/res/cloud.png");
+    img_peo = loadImage("../static/res/people.png");
 }
 
 function setup() {
